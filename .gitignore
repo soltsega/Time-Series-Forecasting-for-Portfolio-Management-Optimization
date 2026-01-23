@@ -166,3 +166,7 @@ credentials.json
 secrets/
 auth/
 *.log
+data/processed/BND_historical_data.csv.dvc
+data/processed/SPY_historical_data.csv.dvc
+data/processed/TSLA_historical_data.csv.dvc
+.dvc/config
