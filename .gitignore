@@ -153,6 +153,16 @@ cython_debug/
 
 # VS Code
 .vscode/
-data/processed/BND_historical_data.csv
-data/processed/TSLA_historical_data.csv
-data/processed/SPY_historical_data.csv
+
+# Large data files (managed by DVC)
+/data/processed/*.csv
+
+# Secrets and Credentials
+.env
+.env*
+*.pem
+*.key
+credentials.json
+secrets/
+auth/
+*.log
