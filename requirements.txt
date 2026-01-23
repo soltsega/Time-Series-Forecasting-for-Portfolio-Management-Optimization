@@ -1,0 +1,14 @@
+yfinance
+pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+pmdarima
+tensorflow
+PyPortfolioOpt
+scikit-learn
+scipy
+jupyter
+pytest
+python-dotenv
