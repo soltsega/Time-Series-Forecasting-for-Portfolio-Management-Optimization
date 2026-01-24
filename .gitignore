@@ -173,3 +173,23 @@ data/processed/TSLA_historical_data.csv.dvc
 scripts/update_nb.py
 scripts/Task1_Completion.py
 notebooks/EDA.py
+
+# Large data files (managed by DVC)
+/data/processed/*.csv
+
+# Secrets and Credentials
+.env
+.env*
+*.pem
+*.key
+credentials.json
+secrets/
+auth/
+*.log
+data/processed/BND_historical_data.csv.dvc
+data/processed/SPY_historical_data.csv.dvc
+data/processed/TSLA_historical_data.csv.dvc
+.dvc/config
+notebooks/EDA.py
+scripts/Task1_Completion.py
+scripts/update_nb.py
