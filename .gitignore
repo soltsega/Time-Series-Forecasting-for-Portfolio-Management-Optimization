@@ -170,3 +170,6 @@ data/processed/SPY_historical_data.csv.dvc
 .dvc/cache/files/md5/e1/1fd6018d6f741a9e85686e8791a137
 .dvc/tmp/lock
 data/processed/TSLA_historical_data.csv.dvc
+scripts/update_nb.py
+scripts/Task1_Completion.py
+notebooks/EDA.py
