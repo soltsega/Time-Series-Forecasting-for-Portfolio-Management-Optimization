@@ -156,3 +156,17 @@ cython_debug/
 data/processed/BND_historical_data.csv
 data/processed/TSLA_historical_data.csv
 data/processed/SPY_historical_data.csv
+data/processed/BND_final_processed.csv
+data/processed/SPY_final_processed.csv
+data/processed/TSLA_final_processed.csv
+.dvc/tmp/rwlock.lock
+data/processed/BND_historical_data.csv.dvc
+data/processed/SPY_historical_data.csv.dvc
+.dvc/cache/files/md5/27/03efec3c509ef0bbae3332bb81674c
+.dvc/cache/files/md5/49/dcc70c409e0cd925bd5391d27d2872
+.dvc/config
+.dvc/tmp/btime
+.dvc/tmp/rwlock
+.dvc/cache/files/md5/e1/1fd6018d6f741a9e85686e8791a137
+.dvc/tmp/lock
+data/processed/TSLA_historical_data.csv.dvc
