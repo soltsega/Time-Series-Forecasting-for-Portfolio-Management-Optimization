@@ -193,3 +193,4 @@ data/processed/TSLA_historical_data.csv.dvc
 notebooks/EDA.py
 scripts/Task1_Completion.py
 scripts/update_nb.py
+FINAL_REPORT.pdf
