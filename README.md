@@ -7,7 +7,7 @@
 [![Tests](https://github.com/yourusername/Time-series-forecasting/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/Time-series-forecasting/actions)
 [![Documentation Status](https://readthedocs.org/projects/portfolio-optimization/badge/?version=latest)](https://portfolio-optimization.readthedocs.io/en/latest/?badge=latest)
 
-## 📚 Table of Contents
+## Table of Contents
 - [Project Overview](#-project-overview)
 - [Methodology](#-methodology)
 - [Implementation Details](#-implementation-details)
@@ -19,7 +19,7 @@
 - [License](#-license)
 - [References](#-references)
 
-## 🌟 Project Overview
+## Project Overview
 
 This project implements an advanced time series forecasting and portfolio optimization system for GMF Investments, focusing on three key financial instruments:
 
@@ -29,7 +29,7 @@ This project implements an advanced time series forecasting and portfolio optimi
 | Vanguard Total Bond Market ETF | BND | Tracks U.S. investment-grade bonds | Low risk, stable income | YFinance |
 | SPDR S&P 500 ETF | SPY | Tracks S&P 500 index | Moderate risk, market return | YFinance |
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Pipeline
 ```python
@@ -115,7 +115,7 @@ weights = ef.max_sharpe()
 cleaned_weights = ef.clean_weights()
 ```
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -145,7 +145,7 @@ pip install tensorflow-gpu==2.8.0
 pip install -r requirements-dev.txt
 ```
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### 1. Data Pipeline
 ```python
@@ -182,7 +182,7 @@ optimal_weights = optimizer.optimize_portfolio(
 )
 ```
 
-## 📊 Results & Analysis
+## Results & Analysis
 
 ### Model Performance
 | Metric | ARIMA | LSTM | Prophet |
@@ -200,7 +200,7 @@ optimal_weights = optimizer.optimize_portfolio(
 | Sharpe Ratio | 0.82      | 0.74           |
 | Max Drawdown | -18.3%    | -12.6%         |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 portfolio-optimization/
@@ -258,7 +258,7 @@ portfolio-optimization/
 └── README.md            # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Setup
 1. Fork and clone the repository
@@ -291,11 +291,11 @@ pytest tests/unit/test_arima.py -v
   mypy src/ tests/
   ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📚 References
+## References
 
 ### Time Series Analysis
 1. Hyndman, R.J., & Athanasopoulos, G. (2021). [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
